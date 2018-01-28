@@ -1,0 +1,22 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "description": "Setting up a React project with ParcelJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "author": "Yomi Eluwande",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.5.1"
+  }
+}
